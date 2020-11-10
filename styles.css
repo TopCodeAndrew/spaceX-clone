@@ -1,13 +1,64 @@
 body {
-    background-color: ;
+    min-height: 200vh;
+}
+
+
+header {
+    /* background-color: rgba(0, 0, 0, 0.356); */
+    height: 90px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    /* align-content: center; */
+    position: sticky;
+    top: 0;
+    
+}
+
+.spaceX-logo {
+    height: 29%;
+    position: relative;
+    top: 35%;
+    left: 11.25%;
+    display: flex;
+}
+
+.menu-box {
+    /* background-color: red; */
+    height: 60px;
+    width: 35.5vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 13%;
+    top: 51.5%;
+
+}
+
+.menu-item {
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.menu-button {
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    right: 45px;
+    top: 25px;
+
 }
 
 
 
 
 
-top-body{
-    background-image: url("https://mk0spaceflightnoa02a.kinstacdn.com/wp-content/uploads/2020/11/f9_gpsstreak.jpg");
-    height: 90vh;
+.top-body{
+    background-image: url("https://aviationweek.com/sites/default/files/styles/crop_freeform/public/2020-11/gps_iii-4_launch_streak-spacex.jpg?itok=uoyuvFBm");
+    background-size:100%;
+    height: 100vh;
     width: 100vw;
+    background-position: center;
+    margin-top: -90px;
 }
